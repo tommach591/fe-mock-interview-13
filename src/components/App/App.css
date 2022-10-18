@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96vw;
+  height: 98vh;
+  font-family: cursive;
+}
+
+.Timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TimeLeftInSeconds {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.Start {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 1px solid black;
+  width: 5rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Start:hover {
+  cursor: pointer;
+}
+
+.Reset {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 1px solid black;
+  width: 5rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Reset:hover {
+  cursor: pointer;
+}
